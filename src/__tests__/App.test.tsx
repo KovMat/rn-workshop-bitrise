@@ -6,6 +6,7 @@ import App from '../App';
 import { maxLives, maxQuestions } from '../config';
 import { IResponse } from '../interfaces';
 
+// mock response
 const res: IResponse = {
   response_code: 0,
   results: [
@@ -74,5 +75,6 @@ describe('Game', () => {
 
     const answersAfterSnap = await getAllByTestId(/answer-[0-9]/);
     expect(answersAfterSnap).toHaveLength(2);
+    //expect(answersAfterSnap).toHaveLength(4);
   });
 });
