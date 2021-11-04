@@ -74,7 +74,7 @@ describe('Game', () => {
     fireEvent.press(button);
 
     const answersAfterSnap = await getAllByTestId(/answer-[0-9]/);
-    //expect(answersAfterSnap).toHaveLength(2);
-    expect(answersAfterSnap).toHaveLength(4);
+    expect(answersAfterSnap).toHaveLength(2);
+    //expect(answersAfterSnap).toHaveLength(4);
   });
 });
