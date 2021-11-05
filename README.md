@@ -24,3 +24,7 @@ hello
 hello again
 
 byebye
+
+uses the following parties:
+https://app.bitrise.io/build/6ece5ae3-1401-4505-987d-314f379d44a0#?tab=log
+https://expo.dev/accounts/kovmat/projects/react-native-quiz
